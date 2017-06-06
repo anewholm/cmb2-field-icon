@@ -1,10 +1,10 @@
 # CMB2 Field Icon
 Allow icon selection for a post from:
-local directories:  THIS_PLUGIN_PATH . 'public/assets/images'
+1. local directories:  THIS_PLUGIN_PATH . 'public/assets/images'
   The code will recurse all sub-directories also
-remote webpages:    http://www.flaticon.com/packs/holiday-travelling-3
+2. remote webpages:    http://www.flaticon.com/packs/holiday-travelling-3
   The code will check all a and img tags in the remote webpage for images
-upload directories: wp_upload_dir()['path']
+3. upload directories: wp_upload_dir()['path']
 
 
 # Usage
