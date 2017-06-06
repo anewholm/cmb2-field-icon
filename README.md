@@ -6,6 +6,15 @@ Allow icon selection for a post from:
   The code will check all a and img tags in the remote webpage for images
 3. upload directories: wp_upload_dir()['path']
 
+## Installation
+
+#### Composer
+`composer require anewholm/cmb2-field-icon`
+
+#### Manual
+1. [Download](https://github.com/anewholm/cmb2-field-icon/archive/master.zip) the plugin
+2. Place the plugin folder in your `/wp-content/plugins/` directory
+3. Activate the plugin in the plugins dashboard
 
 # Usage
 ```php
